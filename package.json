@@ -1,0 +1,24 @@
+{
+  "name": "ts-nodekeras",
+  "version": "0.0.1",
+  "main": "miservidor.ts",
+  "engines": {
+    "node": ">=10.15.3 <10.16.0"
+  },
+  "scripts": {
+    "start": "ts-node miservidor.ts",
+    "preinstall": "npm install node-gyp@latest"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.1.2",
+    "@tensorflow/tfjs-node": "^1.1.2",
+    "canvas": "^2.5.0",
+    "dist.io": "^0.5.2",
+    "node-gyp": "^4.0.0",
+    "performance-now": "^2.1.0",
+    "rollup": "^1.12.5",
+    "sharp": "^0.21.3",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.5.1"
+  }
+}
